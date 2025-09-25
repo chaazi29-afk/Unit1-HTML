@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+<table>
+    <!-- Basic Text -->
+    <tr>
+        <td><label for="Username">Username</label></td>
+        <td><input type="text" name="username" id="username"></td>
+    </tr>
+    <!-- Email with Validation -->
+    <tr>
+        <td><label for="Email">Email</label></td>
+        <td><input type="email" name="email" id="email"></td>
+    </tr>
+    <!-- Passowrd (hidden) -->
+    <tr>
+        <td><label for="Password">Password</label></td>
+        <td><input type="password" name="password" id="password"></td>
+    </tr>
+    <!-- Phone Number -->
+    <tr>
+        <td><label for="Phone">Phone</label></td>
+        <td><input type="tel" name="phone" id="phone"></td>
+    </tr>
+    <!-- Website -->
+     <tr>
+        <td><label for="Website">Website</label></td>
+        <td><input type="url" name="website" id="website"></td>
+     </tr>
+     <!-- Date -->
+      <tr>
+        <td><label for="Date">Date</label></td>
+        <td><input type="date" name="date" id="date"></td>
+     </tr>
+      <!-- Time -->
+      <tr>
+        <td><label for="Time">Time</label></td>
+        <td><input type="time" name="time" id="time"></td>
+     </tr>
+
+     <!-- Multi-Line Text Area -->
+      <tr>
+        <td><label for="Message">Message:</label></td>
+        <td><textarea name="message" id="messages" rows="4"></textarea></td>
+      </tr>
+    <!-- Radio Button (Multiple Choice) -->
+     <tr>
+        <td>Grade:</td>
+        <td>
+            <label><input type="radio" name="grade" value="9">9th</label>
+            <label><input type="radio" name="grade" value="10">10th</label>
+            <label><input type="radio" name="grade" value="11">11th</label>
+            <label><input type="radio" name="grade" value="12">12th</label>
+        </td>
+     </tr>
+     <!-- Select (Drop Down) -->
+</table>
+</body>
+</html>
