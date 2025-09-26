@@ -6,6 +6,7 @@
     <title>HTML Forms</title>
 </head>
 <body>
+    <form action="results.html" method="get">
     <h1>Contact Form</h1>
 <table>
     <!-- Basic Text -->
@@ -18,7 +19,7 @@
         <td><label for="Email">Email</label></td>
         <td><input type="email" name="email" id="email"></td>
     </tr>
-    <!-- Passowrd (hidden) -->
+    <!-- Password (hidden) -->
     <tr>
         <td><label for="Password">Password</label></td>
         <td><input type="password" name="password" id="password"></td>
@@ -60,6 +61,30 @@
         </td>
      </tr>
      <!-- Select (Drop Down) -->
+     <tr>
+         <td>Favorite Sports</td>
+        <td>
+            <select name="sports" id="sports">
+                <option value="" selected disabled>Select a sport:</option>
+                <option value="soccer">Soccer</option>
+                <option value="baseball">Baseball</option>
+                <option value="basketball">Basketball</option>
+            </select>
+        </td>
+      </tr>
+      <!-- Checkboxes -->
+       <tr>
+          <td>Grade:</td>
+          <td>
+              <label><input type="checkbox" name="grade" value="9">9th</label>
+              <label><input type="checkbox" name="grade" value="10">10th</label>
+              <label><input type="checkbox" name="grade" value="11">11th</label>
+              <label><input type="checkbox" name="grade" value="12">12th</label>
+          </td>
+       </tr>
 </table>
+<!-- <input type="submit" value="Submit"> -->
+<button type="submit">Submit</button>
+</form>
 </body>
 </html>
